@@ -19,6 +19,13 @@ class Landingpage extends StatelessWidget {
             ),
           ),
         ),
+        actions: [
+          Builder(
+            builder: (context) {
+              return IconButton(onPressed: () {}, icon: Icon(Icons.add));
+            },
+          ),
+        ],
       ),
     );
   }
