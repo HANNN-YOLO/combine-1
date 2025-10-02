@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
+import '../custom/textfield_1baris_full.dart';
+import '../custom/satu_tombol.dart';
+import '../custom/showdialog_eror.dart';
 
 class Buat extends StatelessWidget {
   static const arah = "/Buat";
   @override
   Widget build(BuildContext context) {
+    final TextEditingController apapun = TextEditingController();
+    final TextEditingController angka = TextEditingController();
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.cyan,
@@ -32,6 +38,53 @@ class Buat extends StatelessWidget {
             },
           ),
         ],
+      ),
+
+      body: Container(
+        height: double.infinity,
+        width: double.infinity,
+        child: Column(
+          children: [
+            SizedBox(height: 10),
+            Textfield1barisFull(
+              jenis: TextInputType.name,
+              bk: TextCapitalization.words,
+              ketikan: apapun,
+              tulis: false,
+              label: "Masukkan Input",
+            ),
+            SizedBox(height: 20),
+            Textfield1barisFull(
+              jenis: TextInputType.number,
+              bk: TextCapitalization.none,
+              ketikan: angka,
+              tulis: false,
+              label: "Masukkan Integer",
+            ),
+            SizedBox(height: 20),
+            Container(
+              width: double.infinity,
+              padding: EdgeInsets.symmetric(horizontal: 10),
+              child: SatuTombol(
+                warna: Colors.cyan,
+                fungsi: () async {
+                  try {
+                    // await
+                    Navigator.of(context).pushReplacementNamed('/Landing');
+                  } catch (e) {
+                    showDialog(
+                      context: context,
+                      builder: (context) {
+                        return ShowdialogEror(label: "${e.toString()}");
+                      },
+                    );
+                  }
+                },
+                label: "Tambah Data",
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
