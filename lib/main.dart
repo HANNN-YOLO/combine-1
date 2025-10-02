@@ -4,14 +4,23 @@ import 'pages/main/buat.dart';
 import 'pages/main/edit.dart';
 // import 'package:supabase/supabase.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-// import 'package:flutter_dotenv/flutter_dotenv.dart';
+// import 'package:flutter_dotenv/flutter_dotenv.dart'
+import 'package:provider/provider.dart';
+import 'providers/crud_provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   const supabaseUrl = String.fromEnvironment('SUPABASE_URL');
   const supabaseAnonKey = String.fromEnvironment('SUPABASE_ANON_KEY');
   await Supabase.initialize(url: supabaseUrl, anonKey: supabaseAnonKey);
-  runApp(App());
+  runApp(
+    ChangeNotifierProvider(
+      create: (context) => CrudProvider(),
+      builder: (context, child) {
+        return App();
+      },
+    ),
+  );
 }
 
 class App extends StatelessWidget {
