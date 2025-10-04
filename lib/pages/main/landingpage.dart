@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
 import '../custom/satu_tombol.dart';
 import '../custom/custom_listtile_delete.dart';
+import '../custom/showdialog_eror.dart';
+import 'package:provider/provider.dart';
+import '../../providers/crud_provider.dart';
 
 class Landingpage extends StatelessWidget {
-  int angka = 0;
   static const arah = "/Landing";
   @override
   Widget build(BuildContext context) {
+    final penghubung = Provider.of<CrudProvider>(context);
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.cyan,
@@ -38,7 +42,7 @@ class Landingpage extends StatelessWidget {
       ),
 
       body:
-          angka == 0
+          penghubung.semuanya == 0
               ? Center(
                 child: SatuTombol(
                   warna: Colors.cyan,
@@ -52,13 +56,30 @@ class Landingpage extends StatelessWidget {
                 height: double.infinity,
                 width: double.infinity,
                 child: ListView.builder(
-                  itemCount: angka,
+                  itemCount: penghubung.semuanya,
                   itemBuilder: (context, index) {
                     return CustomListtileDelete(
-                      label: "Data Atas",
-                      label1: "Data Bawah",
+                      label: "${penghubung.mydata[index].apapun}",
+                      label1: "${penghubung.mydata[index].angka}",
                       fungsitap: () {
-                        Navigator.of(context).pushReplacementNamed('/Edit');
+                        Navigator.of(context).pushReplacementNamed(
+                          '/Edit',
+                          arguments: penghubung.mydata[index].id!,
+                        );
+                      },
+                      fungsi: () async {
+                        try {
+                          await penghubung.Deletedata(
+                            penghubung.mydata[index].id!,
+                          );
+                        } catch (e) {
+                          showDialog(
+                            context: context,
+                            builder: (context) {
+                              return ShowdialogEror(label: "${e.toString()}");
+                            },
+                          );
+                        }
                       },
                     );
                   },

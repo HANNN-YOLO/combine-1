@@ -9,13 +9,13 @@ class CrudProvider with ChangeNotifier {
   final CrudService _tembak = CrudService();
 
   Future<void> Createdata(String apapun, int angka) async {
-    final buat = DateTime.now().toIso8601String();
-
     try {
-      await _tembak.createData(apapun, angka, DateTime.parse(buat));
+      await _tembak.createData(apapun, angka);
     } catch (e) {
+      print(e);
       throw e;
     }
+    await Readdata();
     notifyListeners();
   }
 
@@ -29,23 +29,27 @@ class CrudProvider with ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> Deletedata(String id) async {
+  Future<void> Deletedata(int id) async {
     try {
       await _tembak.deleteData(id);
     } catch (e) {
       throw e;
     }
+    await Readdata();
     notifyListeners();
   }
 
-  Future<void> Updatedata(String id, String apapun, int angka) async {
-    final edit = DateTime.now().toIso8601String();
-
+  Future<void> Updatedata(int id, String apapun, int angka) async {
     try {
-      await _tembak.updateData(id, apapun, angka, DateTime.parse(edit));
+      await _tembak.updateData(id, apapun, angka);
     } catch (e) {
       throw e;
     }
+    await Readdata();
     notifyListeners();
+  }
+
+  CrudProvider() {
+    Readdata();
   }
 }

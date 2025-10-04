@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../custom/textfield_1baris_full.dart';
 import '../custom/satu_tombol.dart';
 import '../custom/showdialog_eror.dart';
+import 'package:provider/provider.dart';
+import '../../providers/crud_provider.dart';
 
 class Buat extends StatelessWidget {
   static const arah = "/Buat";
@@ -9,6 +11,8 @@ class Buat extends StatelessWidget {
   Widget build(BuildContext context) {
     final TextEditingController apapun = TextEditingController();
     final TextEditingController angka = TextEditingController();
+
+    final penghubung = Provider.of<CrudProvider>(context);
 
     return Scaffold(
       appBar: AppBar(
@@ -69,8 +73,13 @@ class Buat extends StatelessWidget {
                 warna: Colors.cyan,
                 fungsi: () async {
                   try {
-                    // await
-                    Navigator.of(context).pushReplacementNamed('/Landing');
+                    await penghubung.Createdata(
+                      apapun.text,
+                      int.parse(angka.text),
+                    );
+                    await Navigator.of(
+                      context,
+                    ).pushReplacementNamed('/Landing');
                   } catch (e) {
                     showDialog(
                       context: context,

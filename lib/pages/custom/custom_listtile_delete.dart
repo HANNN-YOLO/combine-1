@@ -25,14 +25,17 @@ class CustomListtileDelete extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 5),
       child: Card(
         child: ListTile(
-          // leading: CircleAvatar(backgroundImage: NetworkImage("${link}")),
           leading: Container(
             height: 50,
             width: 50,
             decoration: BoxDecoration(
               shape: BoxShape.circle,
               image: DecorationImage(
-                image: NetworkImage("${link}"),
+                image: NetworkImage(
+                  link != null
+                      ? "${link}"
+                      : "https://i.pinimg.com/474x/56/2e/be/562ebed9cd49b9a09baa35eddfe86b00.jpg",
+                ),
                 fit: BoxFit.cover,
                 alignment: Alignment.topCenter,
               ),

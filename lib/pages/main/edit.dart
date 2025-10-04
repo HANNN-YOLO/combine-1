@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../custom/textfield_1baris_full.dart';
 import '../custom/satu_tombol.dart';
 import '../custom/showdialog_eror.dart';
+import 'package:provider/provider.dart';
+import '../../providers/crud_provider.dart';
 
 class Edit extends StatelessWidget {
   static const arah = "/Edit";
@@ -9,6 +11,15 @@ class Edit extends StatelessWidget {
   Widget build(BuildContext context) {
     final TextEditingController apapun = TextEditingController();
     final TextEditingController angka = TextEditingController();
+
+    final terima = ModalRoute.of(context)?.settings.arguments as int;
+    final pakai = Provider.of<CrudProvider>(
+      context,
+    ).mydata.firstWhere((elementr) => elementr.id == terima);
+    final penghubung = Provider.of<CrudProvider>(context);
+
+    apapun.text = "${pakai.apapun}";
+    angka.text = "${pakai.angka}";
 
     return Scaffold(
       appBar: AppBar(
@@ -69,7 +80,12 @@ class Edit extends StatelessWidget {
                 warna: Colors.cyan,
                 fungsi: () async {
                   try {
-                    // await
+                    await penghubung.Updatedata(
+                      // int.parse(pakai.id),
+                      pakai.id!,
+                      apapun.text,
+                      int.parse(angka.text),
+                    );
                     Navigator.of(context).pushReplacementNamed('/Landing');
                   } catch (e) {
                     showDialog(
