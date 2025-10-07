@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "727283568235",
+    "project_id": "supabase-hosting-ac844",
+    "storage_bucket": "supabase-hosting-ac844.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727283568235:android:f74934c1a5712c4dec2b2e",
+        "android_client_info": {
+          "package_name": "com.example.integrasi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyQ1F4gUjL1t_7MLAX4mhE3SiNRhMS5FA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

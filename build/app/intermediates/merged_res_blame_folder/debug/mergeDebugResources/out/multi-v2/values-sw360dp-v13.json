@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.integrasi.app-mergeDebugResources-41:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "outputFile": "com.example.integrasi.app-mergeDebugResources-45:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\IDEAPAD Slim 3\\.gradle\\caches\\8.10.2\\transforms\\12a085f4af97d8500c9432a48145ea1b\\transformed\\preference-1.2.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\Users\\IDEAPAD Slim 3\\.gradle\\caches\\8.10.2\\transforms\\c653faab58ff1a8316537516223e7966\\transformed\\preference-1.2.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

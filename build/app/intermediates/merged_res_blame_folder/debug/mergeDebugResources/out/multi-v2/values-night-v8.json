@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.integrasi.app-mergeDebugResources-41:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.integrasi.app-mergeDebugResources-45:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\Gabut\\Subapase\\integrasi\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\Gabut\\Subapase\\coba_hosting\\integrasi\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\IDEAPAD Slim 3\\.gradle\\caches\\8.10.2\\transforms\\845d779a6f9703b804f5e43452bcc2e5\\transformed\\appcompat-1.1.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\IDEAPAD Slim 3\\.gradle\\caches\\8.10.2\\transforms\\991ea05b6f164ca2a76f4a902ddea292\\transformed\\appcompat-1.1.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

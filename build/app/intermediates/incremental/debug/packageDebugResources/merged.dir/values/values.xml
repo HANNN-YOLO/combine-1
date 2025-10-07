@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="gcm_defaultSenderId" translatable="false">727283568235</string>
+    <string name="google_api_key" translatable="false">AIzaSyDyQ1F4gUjL1t_7MLAX4mhE3SiNRhMS5FA</string>
+    <string name="google_app_id" translatable="false">1:727283568235:android:f74934c1a5712c4dec2b2e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDyQ1F4gUjL1t_7MLAX4mhE3SiNRhMS5FA</string>
+    <string name="google_storage_bucket" translatable="false">supabase-hosting-ac844.firebasestorage.app</string>
+    <string name="project_id" translatable="false">supabase-hosting-ac844</string>
     <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
         
         <item name="android:windowBackground">@drawable/launch_background</item>

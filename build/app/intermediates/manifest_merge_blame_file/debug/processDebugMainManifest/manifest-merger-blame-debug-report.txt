@@ -5,7 +5,7 @@
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="21"
+8        android:minSdkVersion="23"
 9        android:targetSdkVersion="35" />
 10    <!--
 11         The INTERNET permission is required for development. Specifically,
@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->D:\Gabut\Subapase\integrasi\android\app\src\debug\AndroidManifest.xml:6:5-66
-15-->D:\Gabut\Subapase\integrasi\android\app\src\debug\AndroidManifest.xml:6:22-64
+15-->D:\Gabut\Subapase\coba_hosting\integrasi\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->D:\Gabut\Subapase\coba_hosting\integrasi\android\app\src\debug\AndroidManifest.xml:6:22-64
 16    <!--
 17     Required to query activities that can process text, see:
 18         https://developer.android.com/training/package-visibility and
@@ -23,36 +23,36 @@
 21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
 22    -->
 23    <queries>
-23-->D:\Gabut\Subapase\integrasi\android\app\src\main\AndroidManifest.xml:39:5-44:15
+23-->D:\Gabut\Subapase\coba_hosting\integrasi\android\app\src\main\AndroidManifest.xml:39:5-44:15
 24        <intent>
-24-->D:\Gabut\Subapase\integrasi\android\app\src\main\AndroidManifest.xml:40:9-43:18
+24-->D:\Gabut\Subapase\coba_hosting\integrasi\android\app\src\main\AndroidManifest.xml:40:9-43:18
 25            <action android:name="android.intent.action.PROCESS_TEXT" />
-25-->D:\Gabut\Subapase\integrasi\android\app\src\main\AndroidManifest.xml:41:13-72
-25-->D:\Gabut\Subapase\integrasi\android\app\src\main\AndroidManifest.xml:41:21-70
+25-->D:\Gabut\Subapase\coba_hosting\integrasi\android\app\src\main\AndroidManifest.xml:41:13-72
+25-->D:\Gabut\Subapase\coba_hosting\integrasi\android\app\src\main\AndroidManifest.xml:41:21-70
 26
 27            <data android:mimeType="text/plain" />
-27-->D:\Gabut\Subapase\integrasi\android\app\src\main\AndroidManifest.xml:42:13-50
-27-->D:\Gabut\Subapase\integrasi\android\app\src\main\AndroidManifest.xml:42:19-48
+27-->D:\Gabut\Subapase\coba_hosting\integrasi\android\app\src\main\AndroidManifest.xml:42:13-50
+27-->D:\Gabut\Subapase\coba_hosting\integrasi\android\app\src\main\AndroidManifest.xml:42:19-48
 28        </intent>
 29    </queries>
 30
 31    <permission
-31-->[androidx.core:core:1.13.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\dfc2fbca530748e569b0737b09fa016f\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+31-->[androidx.core:core:1.13.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\0f03172ed8c7facae37483afa3b1ac69\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 32        android:name="com.example.integrasi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-32-->[androidx.core:core:1.13.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\dfc2fbca530748e569b0737b09fa016f\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+32-->[androidx.core:core:1.13.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\0f03172ed8c7facae37483afa3b1ac69\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 33        android:protectionLevel="signature" />
-33-->[androidx.core:core:1.13.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\dfc2fbca530748e569b0737b09fa016f\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+33-->[androidx.core:core:1.13.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\0f03172ed8c7facae37483afa3b1ac69\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 34
 35    <uses-permission android:name="com.example.integrasi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-35-->[androidx.core:core:1.13.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\dfc2fbca530748e569b0737b09fa016f\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
-35-->[androidx.core:core:1.13.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\dfc2fbca530748e569b0737b09fa016f\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+35-->[androidx.core:core:1.13.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\0f03172ed8c7facae37483afa3b1ac69\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.13.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\0f03172ed8c7facae37483afa3b1ac69\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 36
 37    <application
 38        android:name="android.app.Application"
 39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-39-->[androidx.core:core:1.13.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\dfc2fbca530748e569b0737b09fa016f\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+39-->[androidx.core:core:1.13.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\0f03172ed8c7facae37483afa3b1ac69\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 40        android:debuggable="true"
-41        android:extractNativeLibs="true"
+41        android:extractNativeLibs="false"
 42        android:icon="@mipmap/ic_launcher"
 43        android:label="integrasi" >
 44        <activity
@@ -89,127 +89,168 @@
 75            android:name="flutterEmbedding"
 76            android:value="2" />
 77
-78        <provider
-78-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-17:20
-79            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-79-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-82
-80            android:authorities="com.example.integrasi.flutter.image_provider"
-80-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-74
-81            android:exported="false"
-81-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-37
-82            android:grantUriPermissions="true" >
-82-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-47
-83            <meta-data
-83-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-16:75
-84                android:name="android.support.FILE_PROVIDER_PATHS"
-84-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:17-67
-85                android:resource="@xml/flutter_image_picker_file_paths" />
-85-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:17-72
-86        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
-87        <service
-87-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:9-31:19
-88            android:name="com.google.android.gms.metadata.ModuleDependencies"
-88-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:13-78
-89            android:enabled="false"
-89-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:13-36
-90            android:exported="false" >
-90-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:13-37
-91            <intent-filter>
-91-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:24:13-26:29
-92                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
-92-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:17-94
-92-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:25-91
-93            </intent-filter>
-94
-95            <meta-data
-95-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:28:13-30:36
-96                android:name="photopicker_activity:0:required"
-96-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:29:17-63
-97                android:value="" />
-97-->[:image_picker_android] D:\Gabut\Subapase\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:30:17-33
-98        </service>
-99
-100        <activity
-100-->[:url_launcher_android] D:\Gabut\Subapase\integrasi\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-11:74
-101            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-101-->[:url_launcher_android] D:\Gabut\Subapase\integrasi\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-74
-102            android:exported="false"
-102-->[:url_launcher_android] D:\Gabut\Subapase\integrasi\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-37
-103            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-103-->[:url_launcher_android] D:\Gabut\Subapase\integrasi\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-71
-104
-105        <uses-library
-105-->[androidx.window:window:1.2.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\aed2861b2b6894f7067df3f3f96b791f\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
-106            android:name="androidx.window.extensions"
-106-->[androidx.window:window:1.2.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\aed2861b2b6894f7067df3f3f96b791f\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
-107            android:required="false" />
-107-->[androidx.window:window:1.2.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\aed2861b2b6894f7067df3f3f96b791f\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
-108        <uses-library
-108-->[androidx.window:window:1.2.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\aed2861b2b6894f7067df3f3f96b791f\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
-109            android:name="androidx.window.sidecar"
-109-->[androidx.window:window:1.2.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\aed2861b2b6894f7067df3f3f96b791f\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
-110            android:required="false" />
-110-->[androidx.window:window:1.2.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\aed2861b2b6894f7067df3f3f96b791f\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
-111
-112        <provider
-112-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\bb10008c4b33ee9597583412a41828ed\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
-113            android:name="androidx.startup.InitializationProvider"
-113-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\bb10008c4b33ee9597583412a41828ed\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
-114            android:authorities="com.example.integrasi.androidx-startup"
-114-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\bb10008c4b33ee9597583412a41828ed\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
-115            android:exported="false" >
-115-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\bb10008c4b33ee9597583412a41828ed\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
-116            <meta-data
-116-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\bb10008c4b33ee9597583412a41828ed\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
-117                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-117-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\bb10008c4b33ee9597583412a41828ed\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
-118                android:value="androidx.startup" />
-118-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\bb10008c4b33ee9597583412a41828ed\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
-119            <meta-data
-119-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
-120                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-120-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
-121                android:value="androidx.startup" />
-121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
-122        </provider>
-123
-124        <receiver
-124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
-125            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-125-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
-126            android:directBootAware="false"
-126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
-127            android:enabled="true"
-127-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
-128            android:exported="true"
-128-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
-129            android:permission="android.permission.DUMP" >
-129-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
-130            <intent-filter>
-130-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
-131                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-131-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-131-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
-132            </intent-filter>
-133            <intent-filter>
-133-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
-134                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-134-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-134-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
-135            </intent-filter>
-136            <intent-filter>
-136-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
-137                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-137-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-137-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
-138            </intent-filter>
-139            <intent-filter>
-139-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
-140                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-140-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-140-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\53e65cb99d6b4f80573625ff2ea53dae\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
-141            </intent-filter>
-142        </receiver>
-143    </application>
-144
-145</manifest>
+78        <service
+78-->[:firebase_core] D:\Gabut\Subapase\coba_hosting\integrasi\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-12:19
+79            android:name="com.google.firebase.components.ComponentDiscoveryService"
+79-->[:firebase_core] D:\Gabut\Subapase\coba_hosting\integrasi\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:18-89
+80            android:directBootAware="true"
+80-->[com.google.firebase:firebase-common:22.0.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\7168801786e3eb273cf94eb7945c8eae\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:32:13-43
+81            android:exported="false" >
+81-->[com.google.firebase:firebase-common:22.0.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\7168801786e3eb273cf94eb7945c8eae\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:33:13-37
+82            <meta-data
+82-->[:firebase_core] D:\Gabut\Subapase\coba_hosting\integrasi\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-11:85
+83                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+83-->[:firebase_core] D:\Gabut\Subapase\coba_hosting\integrasi\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:17-124
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[:firebase_core] D:\Gabut\Subapase\coba_hosting\integrasi\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-common:22.0.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\7168801786e3eb273cf94eb7945c8eae\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:35:13-37:85
+86                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+86-->[com.google.firebase:firebase-common:22.0.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\7168801786e3eb273cf94eb7945c8eae\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:36:17-109
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-common:22.0.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\7168801786e3eb273cf94eb7945c8eae\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:37:17-82
+88        </service>
+89
+90        <provider
+90-->[com.google.firebase:firebase-common:22.0.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\7168801786e3eb273cf94eb7945c8eae\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:23:9-28:39
+91            android:name="com.google.firebase.provider.FirebaseInitProvider"
+91-->[com.google.firebase:firebase-common:22.0.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\7168801786e3eb273cf94eb7945c8eae\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:24:13-77
+92            android:authorities="com.example.integrasi.firebaseinitprovider"
+92-->[com.google.firebase:firebase-common:22.0.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\7168801786e3eb273cf94eb7945c8eae\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:25:13-72
+93            android:directBootAware="true"
+93-->[com.google.firebase:firebase-common:22.0.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\7168801786e3eb273cf94eb7945c8eae\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:26:13-43
+94            android:exported="false"
+94-->[com.google.firebase:firebase-common:22.0.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\7168801786e3eb273cf94eb7945c8eae\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:27:13-37
+95            android:initOrder="100" />
+95-->[com.google.firebase:firebase-common:22.0.1] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\7168801786e3eb273cf94eb7945c8eae\transformed\jetified-firebase-common-22.0.1\AndroidManifest.xml:28:13-36
+96        <provider
+96-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-17:20
+97            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+97-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-82
+98            android:authorities="com.example.integrasi.flutter.image_provider"
+98-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-74
+99            android:exported="false"
+99-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-37
+100            android:grantUriPermissions="true" >
+100-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-47
+101            <meta-data
+101-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-16:75
+102                android:name="android.support.FILE_PROVIDER_PATHS"
+102-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:17-67
+103                android:resource="@xml/flutter_image_picker_file_paths" />
+103-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:17-72
+104        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+105        <service
+105-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:9-31:19
+106            android:name="com.google.android.gms.metadata.ModuleDependencies"
+106-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:13-78
+107            android:enabled="false"
+107-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:13-36
+108            android:exported="false" >
+108-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:13-37
+109            <intent-filter>
+109-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:24:13-26:29
+110                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+110-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:17-94
+110-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:25-91
+111            </intent-filter>
+112
+113            <meta-data
+113-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:28:13-30:36
+114                android:name="photopicker_activity:0:required"
+114-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:29:17-63
+115                android:value="" />
+115-->[:image_picker_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:30:17-33
+116        </service>
+117
+118        <activity
+118-->[:url_launcher_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-11:74
+119            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+119-->[:url_launcher_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-74
+120            android:exported="false"
+120-->[:url_launcher_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-37
+121            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+121-->[:url_launcher_android] D:\Gabut\Subapase\coba_hosting\integrasi\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-71
+122
+123        <uses-library
+123-->[androidx.window:window:1.2.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\d5c105b72da22e942b1e0463a631abe5\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+124            android:name="androidx.window.extensions"
+124-->[androidx.window:window:1.2.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\d5c105b72da22e942b1e0463a631abe5\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+125            android:required="false" />
+125-->[androidx.window:window:1.2.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\d5c105b72da22e942b1e0463a631abe5\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+126        <uses-library
+126-->[androidx.window:window:1.2.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\d5c105b72da22e942b1e0463a631abe5\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+127            android:name="androidx.window.sidecar"
+127-->[androidx.window:window:1.2.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\d5c105b72da22e942b1e0463a631abe5\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+128            android:required="false" />
+128-->[androidx.window:window:1.2.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\d5c105b72da22e942b1e0463a631abe5\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+129
+130        <provider
+130-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\bbd0d072d1b7277309ee30b4bfb54f90\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+131            android:name="androidx.startup.InitializationProvider"
+131-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\bbd0d072d1b7277309ee30b4bfb54f90\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+132            android:authorities="com.example.integrasi.androidx-startup"
+132-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\bbd0d072d1b7277309ee30b4bfb54f90\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+133            android:exported="false" >
+133-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\bbd0d072d1b7277309ee30b4bfb54f90\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+134            <meta-data
+134-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\bbd0d072d1b7277309ee30b4bfb54f90\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+135                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+135-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\bbd0d072d1b7277309ee30b4bfb54f90\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+136                android:value="androidx.startup" />
+136-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\bbd0d072d1b7277309ee30b4bfb54f90\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+137            <meta-data
+137-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+138                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+138-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+139                android:value="androidx.startup" />
+139-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+140        </provider>
+141
+142        <meta-data
+142-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\6a59dc92cdca4944f31b33626c2b619b\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+143            android:name="com.google.android.gms.version"
+143-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\6a59dc92cdca4944f31b33626c2b619b\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+144            android:value="@integer/google_play_services_version" />
+144-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\6a59dc92cdca4944f31b33626c2b619b\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+145
+146        <receiver
+146-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+147            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+147-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+148            android:directBootAware="false"
+148-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+149            android:enabled="true"
+149-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+150            android:exported="true"
+150-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+151            android:permission="android.permission.DUMP" >
+151-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+152            <intent-filter>
+152-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+153                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+153-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+153-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+154            </intent-filter>
+155            <intent-filter>
+155-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+156                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+156-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+156-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+157            </intent-filter>
+158            <intent-filter>
+158-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+159                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+159-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+159-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+160            </intent-filter>
+161            <intent-filter>
+161-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+162                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+162-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+162-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\IDEAPAD Slim 3\.gradle\caches\8.10.2\transforms\b56323edf136c97f53e3140800075f30\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+163            </intent-filter>
+164        </receiver>
+165    </application>
+166
+167</manifest>
